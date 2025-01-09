@@ -6,7 +6,7 @@
 /*   By: sskopek <sskopek@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 16:09:30 by sskopek           #+#    #+#             */
-/*   Updated: 2024/09/18 14:51:20 by sskopek          ###   ########.fr       */
+/*   Updated: 2025/01/09 16:18:11 by username         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,9 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 int		ft_atoi(const char *nptr);
+int		ft_atoi_base(const char *nptr, unsigned int base);
 void	*ft_calloc(size_t nmemb, size_t size);
+void	*ft_realloc(void *ptr, size_t old_size, size_t size);
 char	*ft_strdup(const char *s);
 char	*ft_strjoin(char const *s1, char const*s2);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
